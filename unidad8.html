@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Actividad 3 Js</title>
+	
+	<style type="text/css"> 
+		/* div,p {
+			margin-right: auto;
+			margin-left: auto;
+			width: 400px;
+			}
+		
+		.pasword { margin-left: 13px; } */
+
+		label {
+			display: inline-block;
+			width: 70px;
+		}
+		
+	</style> 
+	
+</head>
+<body>
+	<p><b>Ingreso al Sistema</b></p>
+	<form id="formulario" class="formulario" action="/send.php" method="get">
+		<div>
+			<label for="Usuario">Usuario:</label>
+		 	<input type="text" id="Usuario" placeholder="Usu@ario">
+		</div>
+		<div>
+			<label for="pasword">Clave:</label>
+		 	<input type="password" id="pasword" class="pasword">
+		</div>
+		<input type="submit" value="Ingresar"> 
+	</form>
+	<script src="control.js"></script>
+</body>
+</html>
